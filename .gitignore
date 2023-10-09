@@ -1,0 +1,10 @@
+# Ignorer le dossier node_modules/
+node_modules/
+
+# Ignorer les fichiers de verrouillage de package
+package-lock.json
+yarn.lock
+
+# Ignorer les journaux d'erreurs npm et yarn
+npm-debug.log
+yarn-error.log

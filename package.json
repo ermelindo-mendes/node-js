@@ -1,16 +1,17 @@
 {
-  "name": "js",
+  "name": "exo-http",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./http/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ermelindo-mendes/node-js.git"
   },
-  "author": "",
+  "author": "Mendes Lopes Ermelindo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ermelindo-mendes/node-js/issues"
