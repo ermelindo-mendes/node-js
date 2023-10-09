@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    Salut <%= username %> 
+    <% if (username) { %>
+        Salut <%= username %>
+    <% } else { %>
+        Salut
+    <% } %>
 </body>
 </html>
